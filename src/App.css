@@ -11,16 +11,38 @@ h1 {
   border: 3px solid #443485;
   border-radius: 8px;
   padding: 2rem;
-  
+  box-shadow: -10px 10px #44348540;
 }
 
 .container p {
   color: #693bde;
   margin: 0;
+  font-weight: bold;
+}
+
+.container input {
+  font-size: 2rem;
+  padding: 0 0 1rem 0;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+.container input:last-of-type {
+  border-bottom-color: #693bde;
 }
 
 .container button {
   border: none;
   color: white;
   background-color: #443485;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: -6px 6px #44348540;
 }
