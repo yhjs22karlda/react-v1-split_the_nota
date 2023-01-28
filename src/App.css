@@ -1,0 +1,26 @@
+.app {
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #443485;
+  border-radius: 8px;
+  padding: 2rem;
+  
+}
+
+.container p {
+  color: #693bde;
+  margin: 0;
+}
+
+.container button {
+  border: none;
+  color: white;
+  background-color: #443485;
+}
